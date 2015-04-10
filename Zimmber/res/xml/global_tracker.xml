@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- the Local LogLevel for Analytics -->
+    <string name="ga_logLevel">verbose</string>
+
+    <!-- how often the dispatcher should fire -->
+    <integer name="ga_dispatchPeriod">30</integer>
+
+    <!-- Treat events as test events and don't send to google -->
+    <bool name="ga_dryRun">false</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <String name="com.zimmber.SplashScreenActivity">SplashScreen</String>
+    <String name="com.zimmber.LandingActivity">IntroduceScreen</String>
+    <String name="com.zimmber.SignupActivity">SignupScreen</String>
+    <String name="com.zimmber.SigninActivity">LoginScreen</String>
+    <String name="com.zimmber.HomeMainActivity">HomeScreen</String>
+    <String name="com.zimmber.MyAccountActivity">MyAccountScreen</String>
+    <String name="com.zimmber.UpdateProfileActivity">UpdateProfileScreen</String>
+    <String name="com.zimmber.AddAddressActivity">AddAddressScreen</String>
+    <String name="com.zimmber.EditAddressActivity">EditAddressScreen</String>
+
+</resources>

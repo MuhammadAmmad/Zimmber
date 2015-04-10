@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Details"
+                    android:textColor="#20a7df"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_firstname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="First Name"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_lastname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Last Name"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_phone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Phone"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Spinner
+                            android:id="@+id/spin_state"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Spinner
+                            android:id="@+id/spin_city"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Spinner
+                            android:id="@+id/spin_location"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_landmark"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Landmark"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_street"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Street"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_flatno"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Flat No."
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_address"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Address"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_pincode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:hint="Pincode"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:singleLine="true"
+                            android:textColor="#aa000000"
+                            android:textColorHint="#2980b9"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center|right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textColor="#20a7df"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

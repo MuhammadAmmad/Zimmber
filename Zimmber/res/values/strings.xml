@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zimmber</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gps_message">Please switch on location providers-GPS, Location providers</string>
+    <string name="net_message">Please switch on internet</string>
+    <string name="facebook_app_id">808165265911725</string>
+
+</resources>
